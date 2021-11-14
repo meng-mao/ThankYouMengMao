@@ -176,9 +176,10 @@ nav ul li a{
     margin-top: 10%;
 }
 .img1{
-    width: 40%;
+    width: 20%;
     border: 1px solid aquamarine;
     margin: 0;
+    margin-left: 20%;
     padding: 0;
     border-radius: 2vh;
 }
@@ -192,10 +193,27 @@ nav ul li a{
 
 .nickname{
     display: flex;
+    border: 1px solid aquamarine;
+    width: 80%;
+}
+
+.nameofnickname{
+    border: 1px solid aquamarine;
+    padding: 1% 0;
+    width: 80%;
+}
+
+.logoofnickname{
+    width: 20%;
+    border: 1px solid aquamarine;
 }
 
 .score{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border: 1px solid aquamarine;
 }
 /* this is part for event of html */
 
@@ -341,7 +359,7 @@ tr{
     }
 
     .img1{
-        width: 80%;
+        width: 30%;
         margin: auto;
         border: none;
         border-radius: 2vh;
