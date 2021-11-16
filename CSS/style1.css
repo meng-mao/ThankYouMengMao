@@ -213,7 +213,11 @@ nav ul li a{
     width: 20%;
     border: 1px solid aquamarine;
 }
-
+.logoofnickname img{
+    width: 100%;
+    margin-left: 60%;
+    margin-top: 30%;
+}
 .score{
     display: flex;
     justify-content: center;
@@ -380,7 +384,11 @@ tr{
     .nickname{
         width: 40%;
     }
-    
+    .logoofnickname img{
+        width: 150%;
+        margin-left: 150%;
+        margin-top: 100%;
+    }
     .score{
         margin-right: 40%;
     }
