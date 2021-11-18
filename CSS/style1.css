@@ -2,7 +2,6 @@
 .bigh1{
     font-family: 'Akronim', cursive;
 }
-
 body{
     margin: 0;
     padding: 0;
@@ -14,66 +13,52 @@ body{
     flex-direction: column;
     width: 100%;
 }
-
-.header{
-    display: flex;
-    position: fixed;
-    flex-direction: row;
-    height: 10vh;
-    background-color: aquamarine;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+.logoofthankyou{
+    width: 50%;
+    margin: auto 5%;
 }
-
-.logothankyou{
-    display: flex;
-    width: 3.5%;
-    margin-left: -35%;
+.logoofthankyou img{
+    width: 8%;
 }
-
 .bigh1{
-    display: flex;
-    margin-left: 25%;
-    font-size: 3rem;
-    text-align: justify;
-    color: white;
+    width: 50%;
+    margin-right: auto;
+    color: white;    
 }
-
-nav{
+.headeroflogo{
     display: flex;
     width: 100%;
+    margin: auto;
+    height: 10vh;
+    background-color: aquamarine;
+}
+.header{
     position: fixed;
-    margin-top: 10vh;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: aquamarine;
+}
+nav{
     border: 1px solid aquamarine;
-    height: 6vh;
-    justify-content: center;
-    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
     background-color: rgb(172, 255, 230);
 }
 
 nav ul{
     display: flex;
+    margin: 0.5% auto;
     list-style: none;
 }
 
 nav ul li{
     display: flex;
-    margin: 2vh;
-    width: 20vh;
-    height: 7vh;
-    justify-content: center;
-    align-items: center;
+    margin: auto 3%;
 }
 
 nav ul li a:hover{
     background-color:hsl(86, 100%, 50%);
-    border-radius: 1vh;
+    border-radius: 0.5vh;
     transition: 1s ease;
     box-shadow: hsl(86, 100%, 50%) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    height: 5vh;
-    width: 20vh;
     justify-content: center;
     align-items: center;
     color: white;
@@ -131,7 +116,9 @@ nav ul li a{
 .lookformember{
     text-align: center;
     width: 90%;
-    margin: 10% auto;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 2%;
     box-shadow: rgba(255, 255, 255, 0.096) 0px -23px 25px 0px inset, rgba(0, 255, 255, 0.15) 0px -36px 30px 0px inset, rgba(0, 255, 234, 0.1) 0px -79px 40px 0px inset, rgba(0, 255, 128, 0.06) 0px 2px 1px, rgba(0, 238, 255, 0.09) 0px 4px 2px, rgba(0, 255, 170, 0.09) 0px 8px 4px, rgba(0, 238, 255, 0.09) 0px 16px 8px, rgba(194, 255, 240, 0.09) 0px 32px 16px;
     background-color: rgb(232, 250, 255);
     height: 10vh;
@@ -201,39 +188,28 @@ nav ul li a{
 
 }
 .card-footer{
-    display: flex;
-    border-radius:0 0 2vh 2vh ;
-    padding-bottom: 2%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin:2% auto;
+}
+.card-footer h3{
+    background-color: aquamarine;
+    text-align: center;
 }
 .nickname{
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
-.nameofnickname{
-    font-weight: 900;
-}
 .nameofnickname span{
-    font-size: 1.1rem;
     color: gold;
     border-radius: 2px;
     background-color: rgb(1, 95, 48);
 }
 .logoofnickname{
-    width: 20%;
+    width: 10%;
 }
 .score{
-    width: 50%;
     text-align: center;
-    margin: auto;
-    font-weight: bold;
-}
-.totalscore{
-    font-size: 1.1rem;
 }
 .totalscore span{
     color: gold;
@@ -242,6 +218,14 @@ nav ul li a{
 }
 .currentscore span{
     color: blue;
+}
+.workofmember h3{
+    margin: 0;
+    background-color: aquamarine;
+    text-align: center;
+}
+.textofwork h4,.textofwork p,.textofwork h5{
+    margin: auto 3%;
 }
 /* this is part for event of html */
 
@@ -291,47 +275,6 @@ tr{
         display: flex;
         width: 100%;
     }
-    .header{
-        display: flex;
-        height: 10vh;
-    }
-    .logothankyou{
-        display: flex;
-        width: 10%;
-        margin-left: 1%;
-    }
-    .bigh1{
-        display: flex;
-        font-size: 3rem;
-        margin-left: 5%;
-    }
-    nav{
-        display: flex;
-    }
-    nav ul li{
-        display: flex;
-        margin: 2vh;
-        flex-wrap: wrap;
-        width: 10vh;
-        height: 4vh;
-    }
-    nav ul li a{
-        display: flex;
-        font-size: 75%;
-        margin:0 5%;
-    }
-    nav ul li a:hover{
-        background-color: greenyellow;
-        border-radius: 1vh;
-        transition: 1s ease;
-        box-shadow: rgb(157, 255, 0) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-        height: 4vh;
-        width: 15vh;
-        justify-content: center;
-        align-items: center;
-        color: white;
-    }
-    
     .mylogo1{
         margin:60px auto;
         width: 75%;
@@ -367,7 +310,8 @@ tr{
     }
     /* this is part for member of html */
     .lookformember{
-        margin-top: 25%;
+        margin-top: 20%;
+        margin-bottom: 5%;
     }
     .card-title h3{
         font-size: 80%;
@@ -381,11 +325,8 @@ tr{
         width: 30%;
         border-radius: 2vh;
     }
-    .nickname{
-        width: 50%;
-    }
     .logoofnickname {
-        width: 50%;
+        width: 10%;
     }
     /* this is part for table of html&event */
     table{
@@ -393,9 +334,28 @@ tr{
     }
     
 }
-@media(max-width:550px){
+@media(max-width:580px){
     /* part for member of html */
     .lookformember{
         margin-top: 30%;
+    }
+    nav ul li a{
+        display: flex;
+        font-size: 80%;
+        margin:0 3%;
+    }
+    .logoofthankyou img{
+        width: 15%;
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .img1{
+        margin: auto;
+        width: 50%;
+    }
+    .nickname,.score,.textofwork h4,.card-footer h3,.workofmember h3{
+        font-size: small;
     }
 }
