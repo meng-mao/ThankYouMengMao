@@ -366,7 +366,9 @@ tr{
         border: none;
     }
     /* this is part for member of html */
-
+    .lookformember{
+        margin-top: 25%;
+    }
     .card-title h3{
         font-size: 80%;
     }
@@ -390,4 +392,10 @@ tr{
         margin-top: 20%;
     }
     
+}
+@media(max-width:550px){
+    /* part for member of html */
+    .lookformember{
+        margin-top: 20%;
+    }
 }
