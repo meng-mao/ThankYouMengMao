@@ -123,20 +123,36 @@ nav ul li a{
 }
 
 /* this is part for member of html */
-
 .content2{
     display: flex;
-    margin-top: 10%;
-    flex-wrap: wrap;
     width: 100%;
-
+    flex-wrap: wrap;
 }
-
+.lookformember{
+    text-align: center;
+    width: 90%;
+    margin: 10% auto;
+    box-shadow: rgba(255, 255, 255, 0.096) 0px -23px 25px 0px inset, rgba(0, 255, 255, 0.15) 0px -36px 30px 0px inset, rgba(0, 255, 234, 0.1) 0px -79px 40px 0px inset, rgba(0, 255, 128, 0.06) 0px 2px 1px, rgba(0, 238, 255, 0.09) 0px 4px 2px, rgba(0, 255, 170, 0.09) 0px 8px 4px, rgba(0, 238, 255, 0.09) 0px 16px 8px, rgba(194, 255, 240, 0.09) 0px 32px 16px;
+    background-color: rgb(232, 250, 255);
+    height: 10vh;
+    border-radius: 2vh;
+}
+.lookformember button{
+    border-radius: 1vh;
+    border: 1px solid rgb(204, 204, 204);
+}
+.lookformember  a{
+    text-decoration: none;
+}
+.lookformember button:hover{
+    background-color:hsl(86, 100%, 50%);
+    transition: 1s ease;
+    border: none;
+    box-shadow: hsl(86, 100%, 50%) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
 .card{
-    display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    flex-direction: column;
     background-color: rgb(209, 253, 255);
     border-radius: 2vh;
     margin-bottom: 3%;
