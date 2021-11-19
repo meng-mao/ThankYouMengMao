@@ -37,24 +37,26 @@ body{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background-color: aquamarine;
 }
-nav{
-    border: 1px solid aquamarine;
+.navofhome{
+    width: 100%;
+    border: 1px solid rgb(0, 255, 170);
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
     background-color: rgb(172, 255, 230);
 }
 
-nav ul{
+.navofhome ul{
     display: flex;
-    margin: 0.5% auto;
+    justify-content: center;
+    align-items: center;
     list-style: none;
 }
 
-nav ul li{
+.navofhome ul li{
     display: flex;
     margin: auto 3%;
 }
 
-nav ul li a:hover{
+.navofhome ul li a:hover{
     background-color:hsl(86, 100%, 50%);
     border-radius: 0.5vh;
     transition: 1s ease;
@@ -64,47 +66,37 @@ nav ul li a:hover{
     color: white;
 }
 
-nav ul li a{
+.navofhome ul li a{
     display: flex;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 100%;
 }
-
+/*   part of home of html   */
 .content1{
-    display: flex;
     margin-top: 20vh;
 }
-
-.home1{
-    display: flex;
-    flex-direction: row;
+.content1 h2{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    margin: auto;
+    font-size: 100%;
 }
-
-.home1 h2{
-    position: absolute;
-    display: flex;
-    font-size: xx-large;
-    margin-left: 60vh;
-}
-
-.informationhome1{
+.informationcontent1{
     display: flex;
 }
-
-.informationhome1 p{
-    display: flex;
-    margin-top: 20vh;
-    height: auto;
-    margin-left: 10vh;
-    position: absolute;
-    font-size: 1.3rem;
-    width: 800px;
+.informationcontent1 p{
+    padding: 5%;
+    width: 60%;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(183, 255, 231);
+    border-radius:0 80% 80% 0;
 }
-
-.mylogo1{
-    width: 500px;
-    height: 500px;
-    margin-left: 130vh;
+.informationcontent1 img{
+    width: 40%;
+    margin-right: 10%;
 }
 
 /* this is part for member of html */
@@ -174,9 +166,9 @@ nav ul li a{
 }
 
 .detailinformation ul li{
-    display: flex;
-    text-decoration: none;
+    list-style: none;
     margin-top: 10%;
+    font-size: 100%;
 }
 .img1{
     width: 30%;
@@ -259,38 +251,15 @@ nav ul li a{
         display: flex;
         width: 100%;
     }
-    .mylogo1{
-        margin:60px auto;
-        width: 75%;
-        height: 55vh;
-        border: none;
-        position: absolute;
-        margin-left: 15vh;
+    .navofhome ul li a{
+        font-size: 60%;
     }
-    .informationhome1{
-        display: flex;
-        flex-direction: row;
-        margin-left: 5vh;
+    /* part for home of html */
+    .content1 h2{
+        font-size: 80%;
     }
-    .informationhome1 p{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20vh;
-        border: 1px solid;
-        border-color: aquamarine;
-        padding: 1vh;
-        box-shadow: rgba(0, 255, 34, 0.35) 0px -50px 36px -28px inset;
-        border-radius: 0 5vh 0 5vh;
-        width: 300px;
-        height: auto;
-        margin-left: -1.5vh;
-        font-size: small;
-        
-    }
-    .home1 h2{
-        margin-left: 6.5vh;
-        border: none;
+    .informationcontent1 p{
+        font-size: 70%;
     }
     /* this is part for member of html */
     .lookformember{
@@ -302,7 +271,7 @@ nav ul li a{
     }
     .detailinformation{
         width: 65%;
-        font-size: 0.8rem;
+        font-size: 80%;
         border: none;
     }
     .img1{
@@ -320,11 +289,19 @@ nav ul li a{
     
 }
 @media(max-width:580px){
+    .navofhome ul li a{
+        font-size: 50%;
+    }
+    /* part for home of html */
+    .informationcontent1 p{
+        font-size: 60%;
+        border-radius: 0%;
+    }
     /* part for member of html */
     .lookformember{
         margin-top: 30%;
     }
-    nav ul li a{
+    ul li a{
         display: flex;
         font-size: 80%;
         margin:0 3%;
@@ -339,6 +316,9 @@ nav ul li a{
     .img1{
         margin: auto;
         width: 50%;
+    }
+    .detailinformation ul li{
+        font-size: 70%;
     }
     .nickname,.score,.textofwork h4,.card-footer h3,.workofmember h3{
         font-size: small;
