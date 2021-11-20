@@ -270,7 +270,11 @@ body{
     
 }
 @media(max-width:580px){
+
     /* part for home of html */
+    .content1 h2{
+        margin-top: 10%;
+    }
     .informationcontent1 p{
         border-radius: 0%;
     }
