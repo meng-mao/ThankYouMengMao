@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
 .bigh1{
     font-family: 'Akronim', cursive;
@@ -29,7 +32,6 @@ body{
     display: flex;
     width: 100%;
     margin: auto;
-    height: 10vh;
     background-color: aquamarine;
 }
 .header{
@@ -81,10 +83,11 @@ body{
 }
 .informationcontent1{
     display: flex;
+    flex-wrap: wrap;
 }
 .informationcontent1 p{
     padding: 5%;
-    width: 60%;
+    width: 40%;
     text-align: center;
     margin-top: 15%;
     margin-left: 5%;
@@ -93,7 +96,7 @@ body{
     border-radius:0 80% 80% 0;
 }
 .informationcontent1 img{
-    width: 40%;
+    width: 30%;
     margin-right: 10%;
 }
 
@@ -270,13 +273,19 @@ body{
     
 }
 @media(max-width:580px){
-
+    .navofhome ul li a{
+        margin: 0 auto;
+    }
     /* part for home of html */
     .content1 h2{
         margin-top: 10%;
     }
     .informationcontent1 p{
         border-radius: 0%;
+        width: 80%;
+    }
+    .informationcontent1 img{
+        width: 70%;
     }
     /* part for member of html */
     .lookformember{
