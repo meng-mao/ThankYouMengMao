@@ -69,7 +69,6 @@ body{
 .navofhome ul li a{
     display: flex;
     text-decoration: none;
-    font-size: 100%;
 }
 /*   part of home of html   */
 .content1{
@@ -79,7 +78,6 @@ body{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     text-align: center;
     margin: auto;
-    font-size: 100%;
 }
 .informationcontent1{
     display: flex;
@@ -226,9 +224,6 @@ body{
     border-collapse:collapse;
     background-color: aqua;
 }
-.thedateofbox{
-    font-size: large;
-}
 .content3 th,td{
     padding: 1.5%;
     border: 0.1px solid;
@@ -251,27 +246,14 @@ body{
         display: flex;
         width: 100%;
     }
-    .navofhome ul li a{
-        font-size: 60%;
-    }
     /* part for home of html */
-    .content1 h2{
-        font-size: 80%;
-    }
-    .informationcontent1 p{
-        font-size: 70%;
-    }
     /* this is part for member of html */
     .lookformember{
         margin-top: 20%;
         margin-bottom: 5%;
     }
-    .card-title h3{
-        font-size: 80%;
-    }
     .detailinformation{
         width: 65%;
-        font-size: 80%;
         border: none;
     }
     .img1{
@@ -284,17 +266,12 @@ body{
     /* this is part for table of html&event */
     .content3 table{
         margin-top: 20%;
-        font-size: small;
     }
     
 }
 @media(max-width:580px){
-    .navofhome ul li a{
-        font-size: 50%;
-    }
     /* part for home of html */
     .informationcontent1 p{
-        font-size: 60%;
         border-radius: 0%;
     }
     /* part for member of html */
@@ -303,7 +280,6 @@ body{
     }
     ul li a{
         display: flex;
-        font-size: 80%;
         margin:0 3%;
     }
     .logoofthankyou img{
@@ -316,12 +292,6 @@ body{
     .img1{
         margin: auto;
         width: 50%;
-    }
-    .detailinformation ul li{
-        font-size: 70%;
-    }
-    .nickname,.score,.textofwork h4,.card-footer h3,.workofmember h3{
-        font-size: small;
     }
     /*   part for event of html */
     .content3 table{
