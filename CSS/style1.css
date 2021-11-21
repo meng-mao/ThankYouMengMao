@@ -226,6 +226,26 @@ body{
     width: 20%;
     font-weight: 550;
 }
+/*       part for about us of html */
+.content4{
+    margin: 10% 5%;
+}
+.aboutimg1{
+    margin: auto;
+    width: 100%;
+    border: 2px solid;
+}
+.aboutimg2{
+    margin: auto;
+    width: 100%;
+    border: 2px solid;
+}
+.aboutusinformation h3{
+    text-align: center;
+    padding: 0.5%;
+    border-radius: 2vh;
+    background-color: aquamarine;
+}
 @media only screen and (max-width:800px) {
     /* For tablets: */
     @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
@@ -328,5 +348,9 @@ body{
     }
     .content3 table{
         margin-top: 10%;
+    }
+    /*    part for aboutus of html */
+    .content4{
+        margin-top: 60%;
     }
 }
