@@ -210,12 +210,15 @@ body{
     margin: auto 3%;
 }
 /* this is part for event of html */
+.content3{
+    margin-top: 15%;
+}
 .content3 table{
     background-color: rgb(209, 253, 255);
     box-shadow: rgba(255, 255, 255, 0.096) 0px -23px 25px 0px inset, rgba(0, 255, 255, 0.15) 0px -36px 30px 0px inset, rgba(0, 255, 234, 0.1) 0px -79px 40px 0px inset, rgba(0, 255, 128, 0.06) 0px 2px 1px, rgba(0, 238, 255, 0.09) 0px 4px 2px, rgba(0, 255, 170, 0.09) 0px 8px 4px, rgba(0, 238, 255, 0.09) 0px 16px 8px, rgba(194, 255, 240, 0.09) 0px 32px 16px;
     width: 90%;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 2%;
     border-collapse:collapse;
 }
 .content3 th,td{
@@ -227,18 +230,83 @@ body{
     font-weight: 550;
 }
 /*       part for about us of html */
+.containerabout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.logoofthankyou{
+    text-align: center;
+}
+.logoofthankyou img{
+    width: 5%;
+}
+.headeroflogo{
+    display: flex;
+    background-color: aquamarine;
+}
+.headerabout{
+    position: fixed;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: aquamarine;
+}
+.navofabout{
+    width: 100%;
+    border: 1px solid rgb(0, 255, 170);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    background-color: rgb(172, 255, 230);
+}
+
+.navofabout ul{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navofabout ul li{
+    margin: 2.5% 1%;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+.navofabout ul li a{
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.navofabout ul li a:hover{
+    background-color:hsl(86, 100%, 50%);
+    border-radius: 0.5vh;
+    transition: 1s ease;
+    box-shadow: hsl(86, 100%, 50%) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 .content4{
-    margin: 10% 5%;
+    margin-top: 10%;
+}
+.content4 p{
+    margin: 2%;
 }
 .aboutimg1{
-    margin: auto;
+    margin:2% auto;
+    width: 70%;
+}
+.aboutimg1 img{
+    border-radius: 2vh;
     width: 100%;
-    border: 2px solid;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .aboutimg2{
-    margin: auto;
+    margin:2% auto;
+    width: 70%;
+}
+.aboutimg2 img{
     width: 100%;
-    border: 2px solid;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 2vh;
 }
 .aboutusinformation h3{
     text-align: center;
@@ -286,7 +354,7 @@ body{
         width: 10%;
     }
     /* this is part for table of html&event */
-    .content3 table{
+    .content3{
         margin-top: 25%;
     }
     
@@ -347,9 +415,18 @@ body{
         margin-top: 70%;
     }
     .content3 table{
-        margin-top: 10%;
+        margin-top: 2%;
     }
     /*    part for aboutus of html */
+    .navofabout ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navofabout ul li a{
+        margin: 2% auto;
+    }
     .content4{
         margin-top: 60%;
     }
