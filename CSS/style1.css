@@ -206,8 +206,19 @@ body{
     background-color: aquamarine;
     text-align: center;
 }
-.textofwork h4,.textofwork p,.textofwork h5{
-    margin: auto 3%;
+.description{
+    display: flex;
+}
+.textofwork{
+    width: 40%;
+    margin: 2%;
+}
+.imgofwork{
+    width: 40%;
+}
+.imgofwork img{
+    width: 100%;
+    margin: 3%;
 }
 /* this is part for event of html */
 .content3{
@@ -429,5 +440,17 @@ body{
     }
     .content4{
         margin-top: 60%;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+    }
+    .textofwork{
+        width: 80%;
+        margin: auto;
+    }
+    .imgofwork{
+        width: 80%;
+        margin: auto;
     }
 }
