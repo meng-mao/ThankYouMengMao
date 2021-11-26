@@ -206,8 +206,13 @@ body{
     background-color: aquamarine;
     text-align: center;
 }
+.thework{
+    border: 2px solid aquamarine;
+    margin: 1% 2% 2.5% 2%;
+}
 .description{
     display: flex;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .textofwork{
     width: 40%;
