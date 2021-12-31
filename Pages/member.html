@@ -100,6 +100,52 @@
                             </div>
                         </div>
                     </div>
+                    <div class="thework">
+                        <h3>ស្នាដៃលើកទី៣</h3>
+                        <div class="description">
+                            <div class="textofwork">
+                                <h4> ប្រភេទស្នាដៃ : រូបគំនូរអំពីវប្បធម៌ខ្មែរ លើកទីមួយ</h4>
+                                <div class="scoreofwork">ពិន្ទុសរុប :៧៩៩/១០០០</div>
+                                <h4>កាលបរិច្ឆេទ : ០២ ខែធ្នូ ឆ្នាំ២០២១</h4>
+                                <h4>អ្នកវាយតម្លៃ : ម៉ៅ ម៉េង</h4>
+                            </div>
+                            <div class="imgofwork">
+                                <div style="text-align:center"> 
+                                    <button onclick="playPause()">Play/Pause</button> 
+                                    <button onclick="makeBig()">Big</button>
+                                    <button onclick="makeSmall()">Small</button>
+                                    <button onclick="makeNormal()">Normal</button>
+                                    <br><br>
+                                    <video id="video1" width="420">
+                                      <source src="mov_bbb.mp4" type="video/mp4">
+                                      <source src="mov_bbb.ogg" type="video/ogg">
+                                    </video>
+                                    <script> 
+                                        var myVideo = document.getElementById("video1"); 
+                                        
+                                        function playPause() { 
+                                          if (myVideo.paused) 
+                                            myVideo.play(); 
+                                          else 
+                                            myVideo.pause(); 
+                                        } 
+                                        
+                                        function makeBig() { 
+                                            myVideo.width = 560; 
+                                        } 
+                                        
+                                        function makeSmall() { 
+                                            myVideo.width = 320; 
+                                        } 
+                                        
+                                        function makeNormal() { 
+                                            myVideo.width = 420; 
+                                        } 
+                                        </script> 
+                                  </div> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card" id="lamsreykeov">
@@ -154,18 +200,18 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="thework">
-                    <h3>ស្នាដៃលើកទី២</h3>
-                    <div class="description">
-                        <div class="textofwork">
-                            <h4> ប្រភេទស្នាដៃ : រូបគំនូរអំពីវប្បធម៌ខ្មែរ លើកទីមួយ</h4>
-                            <div class="scoreofwork">ពិន្ទុសរុប :៥៩៩/១០០០</div>
-                            <h4>កាលបរិច្ឆេទ : ០២ ខែធ្នូ ឆ្នាំ២០២១</h4>
-                            <h4>អ្នកវាយតម្លៃ : ម៉ៅ ម៉េង</h4>
-                        </div>
-                        <div class="imgofwork">
-                            <img src="/image/keovwork2.jpeg" alt="">
+                    <div class="thework">
+                        <h3>ស្នាដៃលើកទី២</h3>
+                        <div class="description">
+                            <div class="textofwork">
+                                <h4> ប្រភេទស្នាដៃ : រូបគំនូរអំពីវប្បធម៌ខ្មែរ លើកទីមួយ</h4>
+                                <div class="scoreofwork">ពិន្ទុសរុប :៥៩៩/១០០០</div>
+                                <h4>កាលបរិច្ឆេទ : ០២ ខែធ្នូ ឆ្នាំ២០២១</h4>
+                                <h4>អ្នកវាយតម្លៃ : ម៉ៅ ម៉េង</h4>
+                            </div>
+                            <div class="imgofwork">
+                                <img src="/image/keovwork2.jpeg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
