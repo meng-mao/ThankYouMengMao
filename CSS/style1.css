@@ -225,6 +225,19 @@ body{
     width: 80%;
     margin: 3%;
 }
+.descriptionVideo{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.descriptionVideo .textofwork{
+    width: 35%;
+    text-align: center;
+}
+.descriptionVideo .imgofwork{
+    width: 30%;
+    text-align: center;
+}
 /* this is part for event of html */
 .content3{
     margin-top: 15%;
@@ -369,11 +382,19 @@ body{
     .logoofnickname {
         width: 10%;
     }
+    .descriptionVideo{
+        flex-direction: column;
+    }
+    .descriptionVideo .textofwork{
+        width: 100%;
+    }
+    .descriptionVideo .imgofwork{
+        width: 100%;
+    }
     /* this is part for table of html&event */
     .content3{
         margin-top: 25%;
     }
-    
 }
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
@@ -390,6 +411,9 @@ body{
         margin: 2% auto;
     }
     /* part for home of html */
+    .card{
+        margin:1%;
+    }
     .content1 h2{
         margin-top: 50%;
         font-size: 90%;
@@ -412,9 +436,6 @@ body{
     .logoofthankyou img{
         width: 15%;
     }
-    .card{
-        margin-top: 10%;
-    }
     .card-body{
         display: flex;
         flex-direction: column;
@@ -425,6 +446,12 @@ body{
     .img1{
         margin: auto;
         width: 50%;
+    }
+    .descriptionVideo{
+        margin-right: 0;
+    }
+    .descriptionVideo .textofwork,.descriptionVideo .imgofwork{
+        width: 95%;
     }
     /*   part for event of html */
     .content3{
